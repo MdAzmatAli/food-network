@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 700px;
@@ -30,4 +31,12 @@ section{
 .top-banner{
     background-image: url(images/top-banner.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+}
+.about-me{
+    background-image: url(images/about-me.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
 }
